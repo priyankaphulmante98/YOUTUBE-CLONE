@@ -21,7 +21,7 @@ This is the Landing page when the user enters the website for the first time thi
 ### Signup Page:
 Here user can fill up their data to register on the website.
 
-![Register](https://miro.medium.com/max/700/1*dXoyBDz0L6uoXY7S1vwpmg.png)
+![Register](signup.png)
 
 ### Search Result Page:
 If user search for any video on home page then user will redirected to this search result page, where user will get all the videos related to their search.
