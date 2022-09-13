@@ -1,0 +1,42 @@
+body{
+    background-color: gray
+}
+h1{
+    text-align: center;
+    background-color: pink;
+    height:50px;
+    border-radius: 15px;
+    border: 5px solid black;
+}
+#signup {
+    border:1px solid lightgray;
+    margin: auto;
+    width:30%;
+    padding:20px;
+    background-color: pink;
+    border:5px solid black;
+    border-radius: 20px;
+
+}
+#signup input {
+    border-radius:20px;
+    height:40px;
+    margin-top: 25px;
+    border:none;
+    border: 4px solid black;
+    padding:10px;
+    width:90%;
+}
+#btn{
+    border-radius:20px;
+    height:70px;
+    margin-top: 25px;
+    border: 2px solid black;
+    padding:10px;
+    width:100px;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    
+}

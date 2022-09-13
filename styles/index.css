@@ -1,0 +1,238 @@
+html {
+    scroll-behavior: smooth
+}
+body{
+
+    background-color: #ece9e9;
+}
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 3% 5px 5%;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+.logo-box {
+    width:100px;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-box img {
+    width:100%;
+    height:50px;
+}
+.search-box {
+    width:50%;
+
+}
+.search-box input {
+    width:80%;
+    padding:10px;
+    border:1px solid grey;
+    border:0.5px solid lightgray;
+    border-right: none;
+    outline: none;
+}
+.search_btn {
+    border:1px solid lightgray
+}
+#mike{
+    background-color:rgb(233, 232, 232);
+    margin-left: 14px;
+    padding:11px;
+    border-radius: 48%;
+    vertical-align: center;
+}
+.icon-box {
+    width:15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-box img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+
+
+#side-nav {
+    position: absolute;
+    width:5%;
+    /* border:1px solid red; */
+    height:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+}
+#side-nav p {
+    font-size: 10px;
+}
+#side-nav a {
+    margin-top: 30px;
+}
+
+#horiline {
+    background-color: white;
+    font-size: 25px;
+    border:none;
+    margin-top: 14px;
+    border-radius: 50%;
+    padding:3px 6px;
+}
+#horiline:hover {
+    background-color: lightgray;
+}
+
+
+#side-div {
+    display:none;
+    border: 1px solid rgb(224, 221, 221);
+    width:15%;
+    position:absolute;
+    background-color: white;
+    top:70px;
+    height:1600px;
+    
+}
+#side-div > span {
+    display:flex;
+    align-items: center;
+    margin:0px;
+    padding: 7px;
+}
+#side-div > span:hover {
+    background-color: rgba(0, 0,0, 0.1);
+}
+#side-div a {
+    margin:1px 24px;
+}
+.mysubs_img {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+.subsribed {
+    margin-top: 30px;
+}
+
+#link-box {
+    padding:10px 10px 10px 6%;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: white;
+    font-weight: bold;
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+#link-box button {
+    padding:8px;
+    margin:0px 5px;
+    border-radius: 20px;
+    border:1px solid lightgray;
+}
+#link-box::-webkit-scrollbar {
+    display:none;
+}
+#link-box button:hover {
+    background-color: rgba(0, 0,0, 0.1);
+}
+#link-box button.active {
+    background: black;
+    color:white;
+}
+#popular-videos {
+    background-color: #ece9e9;
+    width:95%;
+    display: grid;
+    padding:1.5%;
+    grid-template-columns: repeat(4,24.1%);
+    grid-gap:1.5%;
+    margin-left: 5%;
+    height:100%;
+}
+
+#recentSearch {
+    background-color: white;
+    color:black;
+    border:1px solid grey;
+    position: fixed;
+    width:550px;
+    top:55px;
+    left:24.5%;
+    height:350px;
+    display: none;
+}
+#recentSearch > p {
+    margin:20px;
+}
+
+/* channel icon */
+#channelimg {
+    border-radius: 50%;
+    margin-right: 15px;
+    width:45px;
+    height: 45px;
+}
+#profile-pic {
+    display:none;
+} 
+#profile-btn {
+    border:none;
+    background-color: white;
+}
+#profile-div {
+
+    width:15%;
+    height:500px;
+    position: absolute;
+    background-color: white;
+    right:5%;
+    top:1%;
+    border:1px solid lightgray;
+    padding: 20px 10px;
+    
+}
+#profile-div input {
+    width:100%;
+    margin-top: 10px;
+    border:none;
+    border-bottom: 1px solid grey;
+}
+#profile-div button {
+    width:100%;
+    background-color: white;
+    border-radius: 5px;
+    padding:8px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+#profile-div button:hover {
+    background-color: rgb(129, 2, 23);
+    color: white;
+}
+#profile-div {
+    display: none;
+}
+/* #profile-div img {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+} */
